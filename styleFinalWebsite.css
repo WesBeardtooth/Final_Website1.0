@@ -1,0 +1,101 @@
+body {
+  background-color: dodgerblue;
+  font-family: fantasy;
+}
+nav {
+  background-color: gainsboro;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 55px;
+  width: 100vw;
+}
+nav ul li{
+  margin-left: 100px;
+  margin-right: 100px;
+  width: fit-content;
+  list-style-type: none;
+  text-align: center;
+  display: inline-block;
+}
+.nav-link {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: darkred;
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: goldenrod;
+}
+#home {
+  margin-top: 10px;
+  left: -8px;
+  width: 100vw;
+  height: 30vh;
+  padding-top: 3em;
+}
+h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50pt;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.header-tag {
+  text-align: center;
+  color: darkred;
+  text-shadow: 2px 2px 2px black;
+}
+h2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: pink;
+  font-size: 16pt;
+  text-align: center;
+  text-shadow: 1.5px 1.5px 1.5px black;
+}
+#about {
+  margin-top: 10px;
+  margin-right: 10em;
+}
+#trumpet-picture {
+  width: 25vw;
+  float: left;
+}
+#trumpet {
+  height: 800px;
+  width: 500px;
+  object-fit: cover;
+  box-shadow: 3px 3px 3px black;
+  margin-left: 140px;
+  margin-bottom: 40px;
+}
+#about-content {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+#Youtube-comments {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 50pt;
+  text-align: center;
+}
+#video {
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#filler-content {
+  float: right;
+  width: 30vw;
+  }
+#construction {
+  display: block;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#construction-comments {
+  font-family: monospace;
+  color: gold;
+  font-size: 24pt;
+  text-align: center;
+}
